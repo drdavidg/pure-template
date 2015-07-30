@@ -215,6 +215,14 @@ a.pure-button-primary {
         margin-right: 7px;
     }
 
+.start-scheduling {
+  background-image: url('/img/seats.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  position: relative;
+}
+
 /* This is the class used for the dark-background areas. */
 .ribbon {
     background: #2d3e50;
