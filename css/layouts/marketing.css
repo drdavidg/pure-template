@@ -231,13 +231,15 @@ a.pure-button-primary {
   padding-bottom: 75px;
   margin: 20px auto;
 }*/
-.featured-salons .pure-g img {
-  float: left;
-  margin: 22px 40px;
+.featured-salons img {
+  display: inline;
 }
-/*.points {
-  padding: 75px;
-}*/
+.features {
+  padding: 100px;
+}
+.featured-salons h2 {
+  padding-bottom: 75px;
+}
 .featured-salons {
   margin-bottom: 125px;
   padding: 110px;
@@ -266,7 +268,7 @@ a.pure-button-primary {
     }
     /* We want to give the content area some more padding */
     .content {
-        padding: 4em 1em 4em 1em;
+        padding: 1em;
     }
 
     /* We can align the menu header to the left, but float the
