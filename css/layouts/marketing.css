@@ -141,7 +141,7 @@ a.pure-button-primary {
 
 .splash-container {
     /*background: #1f8dd6;*/
-    background-image: url('../img/heroimage.png');
+    background-image: url('img/heroimage.png');
     background-size: cover;
     background-repeat: no-repeat;
     /*background-position: 0 -200px;*/
