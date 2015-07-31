@@ -270,19 +270,22 @@ a.pure-button-primary {
   font-size: 125%;
 }
 fieldset .pure-control-group .button-find-seat {
-  margin: 50px 0;
+  /*margin: 50px 0;*/
   display: inline;
   border-radius: 0 4px 4px 0;
   position: relative;
-  right: 7px;
-  top: -1px;
+  /*right: 7px;*/
+  top: 1px;
   background: #1f8dd6;
   color: white;
+  float: left;
 }
 .input-city-zip {
   line-height: 25px;
   display: inline;
   border-radius: 4px 0 0 4px;
+  float: right;
+
 }
 .find-seat {
   margin-top: 2em;
@@ -335,7 +338,12 @@ fieldset .pure-control-group .button-find-seat {
     }
 
 }
-
+@media (max-width: 60em) {
+  .input-city-zip, fieldset .pure-control-group .button-find-seat {
+    float: none;
+    margin: 0 auto;
+  }
+}
 /*
  * -- DESKTOP (AND UP) MEDIA QUERIES --
  * On desktops and other large devices, we want to over-ride some
