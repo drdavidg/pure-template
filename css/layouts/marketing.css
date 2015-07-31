@@ -107,11 +107,16 @@ a.pure-button-primary {
     /* I need a higher z-index here because of the scroll-over effect. */
     z-index: 4;
 }
-
+.button-list-seat {
+  margin-left: 1em;
+}
 .home-menu .pure-menu-heading {
     color: white;
     font-weight: 400;
     font-size: 120%;
+}
+.content-wrapper .content h2 {
+  margin: 5em 0 1em;
 }
 
 .home-menu .pure-menu-selected a {
@@ -168,7 +173,7 @@ a.pure-button-primary {
     font-weight: bold;
     color: white;
     /*border: 3px solid white;*/
-    padding: 1em 1.6em;
+    /*padding: 1em 1.6em;*/
     font-weight: 100;
     /*border-radius: 5px;*/
     line-height: 1em;
@@ -236,10 +241,10 @@ a.pure-button-primary {
   display: inline;
 }
 .features {
-  padding: 100px;
+  padding: 80px;
 }
 .how-it-works .pure-g div {
-  padding: 50px 0 50px 0;
+  padding: 30px 0 50px 0;
   display: inline;
 }
 /*.featured-salons h2 {
@@ -261,7 +266,27 @@ a.pure-button-primary {
 .footer {
     background: #111;
 }
-
+.button-xlarge {
+  font-size: 125%;
+}
+fieldset .pure-control-group .button-find-seat {
+  margin: 50px 0;
+  display: inline;
+  border-radius: 0 4px 4px 0;
+  position: relative;
+  right: 7px;
+  top: -1px;
+  background: #1f8dd6;
+  color: white;
+}
+.input-city-zip {
+  line-height: 25px;
+  display: inline;
+  border-radius: 4px 0 0 4px;
+}
+.find-seat {
+  margin-top: 2em;
+}
 /*
  * -- TABLET (AND UP) MEDIA QUERIES --
  * On tablets and other medium-sized devices, we want to customize some
